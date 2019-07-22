@@ -1,24 +1,14 @@
 import javax.swing.JFrame;
 import javax.swing.JLabel;
-import javax.swing.JPanel;
 
 public class First {
 
 	public static void main(String[] args) {
 		JFrame frame = new JFrame("창이름");
 		
-		JPanel panel = new JPanel();
-		
 		JLabel label = new JLabel("기본값");
-		label.setText("잘가");
 		
-		JLabel label2 = new JLabel("");
-		label2.setText("가지마");
-		
-		// 똑같은 요소를 넣으면 소용이 없다.
-		panel.add(label);
-		panel.add(label2);
-		frame.add(panel);
+		frame.add(label);
 		frame.pack();
 		frame.setVisible(true);
 		// 엑스 버튼을 누르면 꺼지는 기능

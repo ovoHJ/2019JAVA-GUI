@@ -15,7 +15,6 @@ public class First {
 		JLabel label2 = new JLabel("");
 		label2.setText("가지마");
 		
-		// 똑같은 요소를 넣으면 소용이 없다.
 		panel.add(label);
 		panel.add(label2);
 		frame.add(panel);
